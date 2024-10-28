@@ -7,7 +7,7 @@ export class Card {
     static PRICE_CART_CLASS = 'price-cart'; // Класс контейнера цены и кнопки
     static PRICE_CLASS = 'price'; // Класс цены
     static BUY_BUTTON_CLASS = 'buy-button'; // Класс кнопки покупки
-    static BUY_BUTTON_ICON_SRC = './public/cart-icon.png';
+    static BUY_BUTTON_ICON_SRC = './public/cart-icon.svg';
     static BUY_BUTTON_ICON_ALT = 'cart icon'; // Альтернативный текст для иконки
 
     constructor(product) {
